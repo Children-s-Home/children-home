@@ -26,7 +26,7 @@ const SecurityHeaders=[
     async headers(){
       return[
         {
-          source:'/sc/user/:path*',
+          source:'/sc/:path*',
           headers:SecurityHeaders
         }
       ]
@@ -35,7 +35,7 @@ const SecurityHeaders=[
   
   
   const nextConfig = {
-    reactStrictMode: true,
+    reactStrictMode: false,
   }
 
 module.exports = nextConfig

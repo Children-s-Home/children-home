@@ -1,7 +1,7 @@
 'use client'
 import { Outlet } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../Components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
   return (

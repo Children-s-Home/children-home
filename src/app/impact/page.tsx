@@ -1,4 +1,4 @@
-import Footer from "../../../Components/Footer/Footer";
+import Footer from "../../../components/Footer/Footer";
 import ImpactLayoutPage from "../../../components/Impact/ImpactLayout";
 import Navbar from "../../../components/Navbar/Navbar";
 

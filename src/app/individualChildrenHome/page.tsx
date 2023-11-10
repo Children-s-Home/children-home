@@ -1,6 +1,5 @@
-import Footer from "../../../Components/Footer/Footer";
 import ChildrenHomeIndividualPage from "../../../components/ChildrenHomeIndividual/ChildrenHomeIndividual";
-import LogInPage from "../../../components/LogIn/LogIn";
+import Footer from "../../../components/Footer/Footer";
 import Navbar from "../../../components/Navbar/Navbar";
 
 export default function Login() {

@@ -1,4 +1,4 @@
-import Footer from "../../../../Components/Footer/Footer";
+import Footer from "../../../../components/Footer/Footer";
 import FundraisingPage from "../../../../components/Impact/Fundraise/Fundraising";
 import Navbar from "../../../../components/Navbar/Navbar";
 

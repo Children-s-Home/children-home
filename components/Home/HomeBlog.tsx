@@ -5,24 +5,24 @@ import { mini_blog } from './data';
 export default function HomeBlog(){
     const mainBlogSection= main_blog.map((main_blog_section)=>{
         return(
-            <div className="main-left">
+            <div key={main_blog_section.id} className="main-left">
                 <div className="main-left-words">
                     <h4>{main_blog_section.heading}</h4>
                     <p>{main_blog_section.paragraph}</p>
                     <div className="actions">
                         <div className="like">
-                            <img src={main_blog_section.like_image} alt="like" />
+                            <img src={`${main_blog_section.like_image}`} alt="like" />
                             <p>{main_blog_section.like_number}</p>
                         </div>
                         <div className="comments">
-                            <img src={main_blog_section.comment_image} alt="comment" />
+                            <img src={`${main_blog_section.comment_image}`} alt="comment" />
                             <p>{main_blog_section.comment_number}</p>
                         </div>
                     </div>
                     <button><a href="/Blog">Read More</a></button>
                 </div>
                 <div className="main-left-image">
-                    <img src={main_blog_section.main_image} alt="blog image" />
+                    <img src={`${main_blog_section.main_image}`} alt="blog image" />
                 </div>
             </div>
         )

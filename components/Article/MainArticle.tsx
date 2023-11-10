@@ -1,6 +1,7 @@
 'use client'
 import ArticleImg from "/images/article_assets/child-with-ball.png"
 import {article} from './data'
+import Image from "next/image";
 
 export default function MainArticle(){
     const articleSection = article.map((section)=>{
@@ -15,7 +16,7 @@ export default function MainArticle(){
         <div className='article-words'>
             {articleSection}
             <div className='articleImage'>
-                <img src={ArticleImg} alt="" />
+                <Image src={ArticleImg} alt="" />
             </div>
             <h3>Additional Tips to volunteering: </h3>
             <div className='articleSpan'>

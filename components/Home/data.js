@@ -63,7 +63,8 @@ const main_blog=[
         like_number:"3 likes",
         comment_image:comments,
         comment_number:"1 comment",
-        main_image:blog
+        main_image:blog,
+        id:1
     }
 ]
 const mini_blog=[
